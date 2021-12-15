@@ -569,3 +569,11 @@ a
     justify-content: center;
     /* padding-right: 2px; */
 }
+
+.input-s-wide {
+    height: 80% !important;
+}
+
+.margin-left-2 {
+    margin-left: -9px;
+}
