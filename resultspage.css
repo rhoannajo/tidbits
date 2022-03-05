@@ -14,28 +14,28 @@
 }
 
 #flexbox:hover {
-    background-color: rgb(156, 158, 156);
-    border: 3px solid gray;
-    
+    /* background-color: rgb(156, 158, 156); */
+    /* border: 3px solid gray; */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.514);
 }
 
 #flexbox:hover #infoText {
-    color: white;
+    /* color: white; */
     
 }
 
 #flexbox:hover #distanceIcon {
-    color: white;
+    /* color: white; */
     
 }
 
 #flexbox:hover #fillerimage {
-    border: 3px solid white;
+    /* border: 3px solid white; */
     
 }
 
 #flexbox:hover #resultbuttons {
-    border: 3px solid white;
+    /* border: 3px solid white; */
     
 }
 
@@ -164,4 +164,9 @@
     top:0px;
     left:0px;
     z-index:1000;
+}
+
+
+.red {
+  color: #ccc;
 }
